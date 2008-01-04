@@ -2,7 +2,7 @@
 %define plugin	analogradio
 %define name	vdr-plugin-%plugin
 %define version	0.1.3a
-%define rel	13
+%define rel	14
 
 Summary:	VDR plugin: Source device for analog radio tuner devices
 Name:		%name
