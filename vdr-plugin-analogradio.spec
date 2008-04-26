@@ -2,7 +2,7 @@
 %define plugin	analogradio
 %define name	vdr-plugin-%plugin
 %define version	0.1.3a
-%define rel	15
+%define rel	16
 
 Summary:	VDR plugin: Source device for analog radio tuner devices
 Name:		%name
@@ -13,7 +13,7 @@ License:	GPL
 URL:		http://tankwar.de/analogradio.php
 Source:		http://tankwar.de/files/analogradio/vdr-%plugin-%version.tar.bz2
 BuildRoot:	%{_tmppath}/%{name}-buildroot
-BuildRequires:	vdr-devel >= 1.4.1-6
+BuildRequires:	vdr-devel >= 1.6.0
 Requires:	vdr-abi = %vdr_abi
 
 %description
@@ -23,6 +23,7 @@ found on many analog tv tuner cards. It uses video4linux functions to control
 
 %prep
 %setup -q -n %plugin-%version
+%vdr_plugin_prep
 
 %vdr_plugin_params_begin %plugin
 # execute command after muting the radio device
