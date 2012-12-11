@@ -70,3 +70,84 @@ rm -rf %{buildroot}
 %{_bindir}/adr2vdr.sh
 
 
+
+
+%changelog
+* Tue Jul 28 2009 Anssi Hannula <anssi@mandriva.org> 0.1.3a-19mdv2010.0
++ Revision: 401088
+- rebuild for new VDR
+
+* Fri Mar 20 2009 Anssi Hannula <anssi@mandriva.org> 0.1.3a-18mdv2009.1
++ Revision: 359276
+- rebuild for new vdr
+
+* Mon Apr 28 2008 Anssi Hannula <anssi@mandriva.org> 0.1.3a-17mdv2009.0
++ Revision: 197893
+- rebuild for new vdr
+
+* Sat Apr 26 2008 Anssi Hannula <anssi@mandriva.org> 0.1.3a-16mdv2009.0
++ Revision: 197625
+- add vdr_plugin_prep
+- bump buildrequires on vdr-devel
+
+* Fri Jan 04 2008 Anssi Hannula <anssi@mandriva.org> 0.1.3a-15mdv2008.1
++ Revision: 145010
+- rebuild for new vdr
+
+* Fri Jan 04 2008 Anssi Hannula <anssi@mandriva.org> 0.1.3a-14mdv2008.1
++ Revision: 144968
+- rebuild for new vdr
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Mon Oct 29 2007 Anssi Hannula <anssi@mandriva.org> 0.1.3a-13mdv2008.1
++ Revision: 103054
+- rebuild for new vdr
+
+* Sun Jul 08 2007 Anssi Hannula <anssi@mandriva.org> 0.1.3a-12mdv2008.0
++ Revision: 49963
+- rebuild for new vdr
+
+* Thu Jun 21 2007 Anssi Hannula <anssi@mandriva.org> 0.1.3a-11mdv2008.0
++ Revision: 42050
+- rebuild for new vdr
+
+* Sat May 05 2007 Anssi Hannula <anssi@mandriva.org> 0.1.3a-10mdv2008.0
++ Revision: 22690
+- rebuild for new vdr
+
+
+* Tue Dec 05 2006 Anssi Hannula <anssi@mandriva.org> 0.1.3a-9mdv2007.0
++ Revision: 90885
+- rebuild for new vdr
+
+* Tue Oct 31 2006 Anssi Hannula <anssi@mandriva.org> 0.1.3a-8mdv2007.1
++ Revision: 73938
+- rebuild for new vdr
+- Import vdr-plugin-analogradio
+
+* Thu Sep 07 2006 Anssi Hannula <anssi@mandriva.org> 0.1.3a-7mdv2007.0
+- rebuild for new vdr
+
+* Thu Aug 24 2006 Anssi Hannula <anssi@mandriva.org> 0.1.3a-6mdv2007.0
+- stricter abi requires
+
+* Mon Aug 07 2006 Anssi Hannula <anssi@mandriva.org> 0.1.3a-5mdv2007.0
+- rebuild for new vdr
+
+* Wed Jul 26 2006 Anssi Hannula <anssi@mandriva.org> 0.1.3a-4mdv2007.0
+- rebuild for new vdr
+
+* Tue Jun 20 2006 Anssi Hannula <anssi@mandriva.org> 0.1.3a-3mdv2007.0
+- rebuild for new vdr
+
+* Mon Jun 05 2006 Anssi Hannula <anssi@mandriva.org> 0.1.3a-2mdv2007.0
+- rebuild for new vdr
+
+* Sun Jun 04 2006 Anssi Hannula <anssi@mandriva.org> 0.1.3a-1mdv2007.0
+- initial Mandriva release
+
