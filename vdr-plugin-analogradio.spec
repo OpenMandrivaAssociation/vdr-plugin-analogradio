@@ -1,18 +1,13 @@
-
 %define plugin	analogradio
-%define name	vdr-plugin-%plugin
-%define version	0.1.3a
-%define rel	19
 
 Summary:	VDR plugin: Source device for analog radio tuner devices
-Name:		%name
-Version:	%version
-Release:	%mkrel %rel
+Name:		vdr-plugin-%plugin
+Version:	0.1.3a
+Release:	20
 Group:		Video
 License:	GPL
 URL:		http://tankwar.de/analogradio.php
 Source:		http://tankwar.de/files/analogradio/vdr-%plugin-%version.tar.bz2
-BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildRequires:	vdr-devel >= 1.6.0
 Requires:	vdr-abi = %vdr_abi
 
@@ -50,19 +45,9 @@ param=--devaudio=AUDIO_DEVICE
 %vdr_plugin_build
 
 %install
-rm -rf %{buildroot}
 %vdr_plugin_install
 
 install -D -m755 tools/adr2vdr.sh %buildroot%_bindir/adr2vdr.sh
-
-%clean
-rm -rf %{buildroot}
-
-%post
-%vdr_plugin_post %plugin
-
-%postun
-%vdr_plugin_postun %plugin
 
 %files -f %plugin.vdr
 %defattr(-,root,root)
