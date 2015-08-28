@@ -3,7 +3,7 @@
 Summary:	VDR plugin: Source device for analog radio tuner devices
 Name:		vdr-plugin-%plugin
 Version:	0.1.3a
-Release:	21
+Release:	22
 Group:		Video
 License:	GPL
 URL:		http://tankwar.de/analogradio.php
