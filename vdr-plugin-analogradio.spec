@@ -6,7 +6,7 @@ Version:	0.1.3a
 Release:	22
 Group:		Video
 License:	GPL
-URL:		http://tankwar.de/analogradio.php
+URL:		https://tankwar.de/analogradio.php
 Source:		http://tankwar.de/files/analogradio/vdr-%plugin-%version.tar.bz2
 BuildRequires:	vdr-devel >= 1.6.0
 Requires:	vdr-abi = %vdr_abi
